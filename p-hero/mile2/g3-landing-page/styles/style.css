@@ -45,8 +45,6 @@ body{
 .link-container{
     display: flex;
     justify-content: space-between;
-}
-.link-container{
     list-style: none;
 }
 .link-container li a{
@@ -54,7 +52,7 @@ body{
     color: rgb(66, 66, 66);
     font-size: 18px;
     font-weight: 500;
-    padding: 0 15px
+    padding: 0 15px;
 }
 .header-description{
     text-align: center;
@@ -73,4 +71,18 @@ body{
     width: 100%;
     border: 1px dashed rgb(19, 19, 19);
     border-radius: 8px;
+}
+
+/* media queries */
+@media screen and (max-width: 576px) {
+    .navbar{
+        flex-direction: column;
+        padding: 25px 0;
+    }
+    .link-container{
+        padding: 0;
+    }
+    .link-container li a{
+        padding: 10px;
+    }
 }
