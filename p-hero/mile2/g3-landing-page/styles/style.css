@@ -73,6 +73,15 @@ body{
     border-radius: 8px;
 }
 
+/* footer styles */
+.footer{
+    background: rgba(255, 144, 14, 0.1);
+    text-align: center;
+}
+.footer p{
+    padding: 39px 0;
+}
+
 /* media queries */
 
 /* small devices */
