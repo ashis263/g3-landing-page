@@ -74,6 +74,8 @@ body{
 }
 
 /* media queries */
+
+/* small devices */
 @media screen and (max-width: 576px) {
     .navbar{
         flex-direction: column;
@@ -85,4 +87,19 @@ body{
     .link-container li a{
         padding: 10px;
     }
+}
+
+/* medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .navbar{
+        flex-direction: column;
+        padding: 25px 0;
+    }
+    .link-container{
+        padding: 0;
+    }
+    .link-container li a{
+        padding: 10px;
+    }
+    
 }
