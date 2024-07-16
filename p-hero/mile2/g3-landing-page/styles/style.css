@@ -56,7 +56,7 @@ body{
 }
 .header-description{
     text-align: center;
-    max-width: 862px;
+    width: 78%;
     margin: 0 auto;
 }
 .header-description-title{
