@@ -92,28 +92,36 @@ body {
     width: 78%;
     margin: 50px auto;
 }
+
 .feature-list {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .feature-grid {
     width: 60%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
-.feature-description{
+
+.feature-description {
     width: 30%;
 }
-.feature-title, .feature-text {
+
+.feature-title,
+.feature-text {
     padding-bottom: 25px;
 }
+
 .quick-list {
     color: grey;
 }
+
 .features {
-    color: rgb(255, 144, 14);;
+    color: rgb(255, 144, 14);
+    ;
 }
 
 /* footer styles */
@@ -142,6 +150,22 @@ body {
     .link-container li a {
         padding: 10px;
     }
+
+    .feature-list {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .feature-grid {
+        width: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .feature-description {
+        width: 80%;
+        text-align: center;
+    }
+
 }
 
 /* medium devices */
