@@ -183,4 +183,26 @@ body {
         padding: 10px;
     }
 
+    .feature-list {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .feature-grid {
+        width: auto;
+    }
+
+    .feature-description {
+        width: auto;
+        text-align: center;
+    }
+
+    .feature-title, .feature-text {
+        padding-bottom: 10px;
+    }
+
+    .feature-list-image {
+        width: 100%;
+    }
+
 }
