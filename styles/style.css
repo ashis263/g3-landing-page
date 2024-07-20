@@ -163,6 +163,31 @@ body {
     margin-top: -100px;
 }
 
+/* facts section styles */
+.fact-section {
+    width: 78%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fact-card-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.fact-card{
+    width: 20%;
+    padding: 50px 0;
+    border: 2px solid bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
 
 /* footer styles */
 .footer {
