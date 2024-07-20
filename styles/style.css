@@ -90,13 +90,14 @@ body {
 /* feature section styles */
 .feature-section {
     width: 78%;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 .feature-list {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .feature-grid {
@@ -115,6 +116,10 @@ body {
     padding-bottom: 25px;
 }
 
+.feature-list-image {
+    width: 100%;
+}
+
 .quick-list {
     color: grey;
 }
@@ -123,6 +128,41 @@ body {
     color: rgb(255, 144, 14);
     ;
 }
+
+.feature-love {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-love-description {
+    width: 30%;
+}
+
+.feature-card {
+    padding: 25px;
+    border: 5px solid beige;
+    margin-bottom: 10px;
+}
+
+.feature-title2 {
+    margin-bottom: 10px;
+}
+
+.feature-love-visual {
+    width: 50%;
+}
+
+.feature-image{
+    width: 100%;
+}
+
+.feature-love-btn {
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin-left: -80px;
+    margin-top: -100px;
+}
+
 
 /* footer styles */
 .footer {
