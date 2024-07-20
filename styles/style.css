@@ -238,7 +238,7 @@ body {
 
     .feature-list {
         flex-direction: column;
-        gap: 50px;
+        gap: 20px;
     }
 
     .feature-grid {
@@ -256,6 +256,24 @@ body {
 
     .feature-list-image {
         width: 100%;
+    }
+
+    .feature-description {
+        width: 80%;
+        text-align: center;
+    }
+
+    .feature-love {
+        flex-direction: column-reverse;
+    }
+
+    .feature-love-description, .feature-love-visual {
+        width: 80%;
+        margin: auto;
+    }
+
+    .feature-love-btn {
+        display: none;
     }
 
 }
