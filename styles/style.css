@@ -201,6 +201,7 @@ body {
 .sponsor-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .sponsor-section img{
