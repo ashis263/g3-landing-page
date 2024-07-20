@@ -149,7 +149,7 @@ body {
 }
 
 .feature-love-visual {
-    width: 50%;
+    width: 45%;
 }
 
 .feature-image{
@@ -204,6 +204,19 @@ body {
     .feature-description {
         width: 80%;
         text-align: center;
+    }
+
+    .feature-love {
+        flex-direction: column-reverse;
+    }
+
+    .feature-love-description, .feature-love-visual {
+        width: 80%;
+        margin: auto;
+    }
+
+    .feature-love-btn {
+        display: none;
     }
 
 }
