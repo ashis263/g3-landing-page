@@ -316,4 +316,17 @@ body {
         display: none;
     }
 
+    .fact-card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .fact-card {
+        width: 80%;
+        margin: auto;
+    }
+
 }
