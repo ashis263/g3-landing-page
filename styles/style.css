@@ -1,28 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
 }
 
 /* shared styles */
-body{
+body {
     max-width: 1920px;
     margin: 0 auto;
     font-family: "Work Sans", sans-serif;
-    
+
 }
-.header-primary{
+
+.header-primary {
     color: rgb(19, 19, 19);
     font-size: 2.81rem;
     font-weight: 700;
 }
-.text-primary{
+
+.text-primary {
     font-family: Work Sans;
     font-size: 1rem;
     font-weight: 400;
 }
-.btn-primary{
+
+.btn-primary {
     color: rgb(255, 255, 255);
     padding: 20px;
     font-size: 20px;
@@ -33,52 +36,64 @@ body{
 }
 
 /* header styles */
-.header{
-    background: rgba(255, 144, 14, 0.1);;
+.header {
+    background: rgba(255, 144, 14, 0.1);
+    ;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px 50px 50px 50px;
 }
-.link-container{
+
+.link-container {
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
-.link-container li a{
+
+.link-container li a {
     text-decoration: none;
     color: rgb(66, 66, 66);
     font-size: 18px;
     font-weight: 500;
     padding: 0 15px;
 }
-.header-description{
+
+.header-description {
     text-align: center;
     width: 78%;
     margin: 0 auto;
 }
-.header-description-title{
+
+.header-description-title {
     color: rgb(19, 19, 19);
     font-size: 4rem;
     font-weight: 700;
 }
-.header-description-title, .header-description-text, .header-description-btn, .header-description-banner{
+
+.header-description-title,
+.header-description-text,
+.header-description-btn,
+.header-description-banner {
     margin-bottom: 25px;
 }
-.header-description-banner{
+
+.header-description-banner {
     width: 100%;
     border: 1px dashed rgb(19, 19, 19);
     border-radius: 8px;
 }
 
 /* footer styles */
-.footer{
+.footer {
     background: rgba(255, 144, 14, 0.1);
     text-align: center;
 }
-.footer p{
+
+.footer p {
     padding: 39px 0;
 }
 
@@ -86,29 +101,33 @@ body{
 
 /* small devices */
 @media screen and (max-width: 576px) {
-    .navbar{
+    .navbar {
         flex-direction: column;
         padding: 25px 0;
     }
-    .link-container{
+
+    .link-container {
         padding: 0;
     }
-    .link-container li a{
+
+    .link-container li a {
         padding: 10px;
     }
 }
 
 /* medium devices */
-@media screen and (min-width: 576px) and (max-width: 992px){
-    .navbar{
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .navbar {
         flex-direction: column;
         padding: 25px 0;
     }
-    .link-container{
+
+    .link-container {
         padding: 0;
     }
-    .link-container li a{
+
+    .link-container li a {
         padding: 10px;
     }
-    
+
 }
