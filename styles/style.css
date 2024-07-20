@@ -87,6 +87,35 @@ body {
     border-radius: 8px;
 }
 
+/* feature section styles */
+.feature-section {
+    width: 78%;
+    margin: 50px auto;
+}
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.feature-grid {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.feature-description{
+    width: 30%;
+}
+.feature-title, .feature-text {
+    padding-bottom: 25px;
+}
+.quick-list {
+    color: grey;
+}
+.features {
+    color: rgb(255, 144, 14);;
+}
+
 /* footer styles */
 .footer {
     background: rgba(255, 144, 14, 0.1);
