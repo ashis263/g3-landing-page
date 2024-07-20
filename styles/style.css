@@ -244,6 +244,21 @@ body {
         display: none;
     }
 
+    .fact-section {
+        width: 70%;
+    }
+
+    .fact-card-container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .fact-card {
+        width: 65%;
+        margin: 0 auto;
+    }
+
 }
 
 /* medium devices */
